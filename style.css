@@ -6,6 +6,7 @@ body {
 div.content-group {
 	background-color: #e9eef1;	
 	padding-top: 5px;
+	padding-bottom: 20px;
 }
 
 div.content {
@@ -20,7 +21,10 @@ div.title-group {
 }
 
 div.table {
+	margin: 0 auto;
 	display: table;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 div.table-row {
@@ -31,6 +35,17 @@ div.table-row {
 div.table-row div{
 	display: table-cell;
 	width: 20%;
+	border-top: 2px solid #aec4d1;
+    border-right: 2px solid #aec4d1;
+    padding: 5px;
+}
+
+div.table-row div.left {
+	border-left: 2px solid #aec4d1;
+}
+
+div.table-row div.bottom {
+	border-bottom: 2px solid #aec4d1;
 }
 
 div.table-head {
@@ -55,4 +70,9 @@ div.table-body{
 
 h3 {
 	text-align: center;
+}
+
+footer {
+	background-color: #fef8cd;
+	height: 100px;
 }
