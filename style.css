@@ -7,6 +7,8 @@ div.content-group {
 	background-color: #e9eef1;	
 	padding-top: 5px;
 	padding-bottom: 20px;
+	overflow: auto;
+
 }
 
 div.content {
@@ -18,6 +20,10 @@ div.content {
 }
 div.title-group {
 	color: #25577c;
+	background-color: white;
+	top: 0;
+	width: 100%;
+	text-align: center;
 }
 
 div.table {
@@ -29,6 +35,7 @@ div.table {
 
 div.table-row {
 	display: table-row;
+	width:100%;
 }
 
 
@@ -75,4 +82,20 @@ h3 {
 footer {
 	background-color: #fef8cd;
 	height: 100px;
+}
+
+span.bold-text {
+	font-weight: bold;
+}
+span.bold-text-color {
+	color: #fd3750;
+	font-weight: bold;
+}
+
+p {
+	line-height: 25px;
+}
+
+li {
+	line-height: 30px;
 }
