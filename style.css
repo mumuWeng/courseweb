@@ -1,49 +1,48 @@
+/*---------- general style ----------*/
+
 body {
-	font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
+	font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial,sans-serif; 
 	margin: 0;
 	background-color: #e9eef1;	
 	font-size: 14px;
 }
 
-div.content-group {
-	padding-top: 5px;
-	padding-bottom: 20px;
-	overflow: auto;
-	margin-top: 130px;
-}
-
-div.content {
-	width: 75%;
-	background-color: #f9fafb;
-	margin: 0 auto;
-	border-radius: 10px;
-	border: 1px #ccc solid;
-}
-
-div.section {
-	margin-top: -135px;
-	padding-top: 135px;
-	margin-bottom: 50px;
-}
-
-div.section-home {
-	margin-top: -200px;
-	padding-top: 200px;
-	margin-bottom: 50px;
-}
-
-.title-group {
-	color: white;
-	background-color: rgba(0,0,0,0.8);
-	top: 0;
-	width: 100%;
+h2 {
 	text-align: center;
-	padding-bottom: 10px;
-	position: fixed;
-	z-index: 2000;
 }
 
-div.table {
+h3 {
+	text-align: center;
+	margin-top: 0;
+}
+
+p, li {
+	line-height: 1.5;
+}
+
+a, a:link, a:visited {
+	color: #6851c1;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #9b84f4;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+.bold-text-color {
+	color: #fd3750;
+	font-weight: bold;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.table {
 	margin: 0 auto;
 	display: table;
 	margin-top: 20px;
@@ -52,13 +51,12 @@ div.table {
 	width: 100%;
 }
 
-div.table-row {
+.table-row {
 	display: table-row;
 	width:100%;
 }
 
-
-div.table-row div{
+.table-row div {
 	display: table-cell;
 	width: 20%;
 	border-top: 2px solid #aec4d1;
@@ -66,23 +64,87 @@ div.table-row div{
     padding: 5px;
 }
 
-div.table-row div.left {
+.table-row div.left {
 	border-left: 2px solid #aec4d1;
 }
 
-
-
-div.table-row div.bottom {
+.table-row div.bottom {
 	border-bottom: 2px solid #aec4d1;
 }
 
-div.table-head {
+.table-head {
 	display: table-header-group;
 }
 
-div.table-body{
+.table-body{
 	display: table-row-group;
 	width: 100%;
+}
+
+
+/*---------- navigation bar style ----------*/
+
+.nav-container {
+	color: white;
+	background-color: rgba(0,0,0,0.9);
+	top: 0;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+	position: fixed;
+	z-index: 2000;
+}
+
+.nav-title {
+	display: inline-block;
+}
+
+.nav-subtitle {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.nav-bar {
+	display: block;
+}
+
+a.nav-link, a.nav-link:link, a.nav-link:visited  {
+	color: #b1f3f6;
+	margin-right: 10px;
+}
+
+a.nav-link:hover {
+	color: #b1f6d7;
+}
+
+
+/*---------- content general style ----------*/
+
+.content-group {
+	padding-top: 5px;
+	padding-bottom: 20px;
+	overflow: auto;
+	margin-top: 130px;
+}
+
+.content {
+	width: 75%;
+	background-color: #f9fafb;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 1px #ccc solid;
+}
+
+.section {
+	margin-top: -135px;
+	padding-top: 135px;
+	margin-bottom: 50px;
+}
+
+.section-home {
+	margin-top: -200px;
+	padding-top: 200px;
+	margin-bottom: 50px;
 }
 
 .title {
@@ -98,31 +160,8 @@ div.table-body{
 	margin: 0 auto;
 }
 
-h3 {
-	text-align: center;
-	margin-top: 0;
-}
 
-h2 {text-align: center;
-}
-
-span.bold-text {
-	font-weight: bold;
-}
-
-span.bold-text-color {
-	color: #fd3750;
-	font-weight: bold;
-}
-
-p {
-	line-height: 1.5;
-}
-
-li {
-	line-height: 1.5;
-}
-
+/*--------- staff section style----------*/
 .avatar {
     width: 160px;
     height: 160px;
@@ -130,7 +169,6 @@ li {
     margin-bottom: 10px;
     cursor: pointer;
     border: 2px solid #b1f3f6;
-    display: inline-block;
     margin-right: 30px;
 }
 
@@ -139,22 +177,103 @@ li {
     height: 120px;
     border-radius: 60px;
     margin-bottom: 10px;
-    cursor: pointer;
     border: 2px solid #b1f3f6;
     background-position: center;
     display: inline-block;
     margin-right:30px;
 }
 
-
-
 .assistant-block {
 	width: 48%; 
-	display:inline-block;
+	display: inline-block;
+}
+
+.staff-title {
+	text-align: left; 
+	margin-bottom: 0;
+}
+
+.ta-title {
+	text-align: left; 
+	margin-bottom: 10px; 
+	margin-top: 10px;
+}
+
+.staff-info {
+	display: inline-block; 
+	position: absolute;
+}
+
+.staff-info p {
+	margin-top: 0;
+}
+
+a.email-link {
+	color: #3c8564;
+}
+
+a.email-link:hover {
+	color: #56be90;
 }
 
 
-div.schedule-table {
+/*--------- syllabus section style----------*/
+.syllabus-container {
+	margin-top: 20px;
+}
+
+.syllabus-subtitle {
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.textbook-title {
+	text-align: left; 
+	margin-bottom: 10px;
+}
+
+.textbook-container {
+	margin-bottom: 10px
+}
+
+.textbook-container div {
+	display: inline-block;
+}
+
+.textbook-img {
+	max-width: 120px; 
+	height: auto; 
+	width: 100%;
+}
+
+.textbook-info {
+	display: inline-block; 
+	position: absolute; 
+	margin-left: 30px;
+}
+
+.textbook-info p {
+	margin-top: 0
+}
+
+.policy li {
+	line-height: 2;
+}
+
+
+/*---------- schedule section style ----------*/
+
+a.section-link {
+	color: #323232;
+	font-weight: bold;
+}
+
+a.section-link:hover {
+	color: #7f7f7f;
+	font-weight: bold;
+}
+
+.schedule-table {
 	margin: 0 auto;
 	display: table;
 	margin-top: 5px;
@@ -163,11 +282,43 @@ div.schedule-table {
 	table-layout: fixed;
 }
 
-.text-center {
-	text-align: center;
+.schedule-table-row {
+	display: table-row;
+	width: 100%;
 }
 
-/*------- form -------*/
+.schedule-table-row div {
+	display: table-cell;
+	border-top: 2px solid #aec4d1;
+    border-right: 2px solid #aec4d1;
+    padding: 5px;
+}
+
+.schedule-table-row div.left {
+	border-left: 2px solid #aec4d1;
+	width: 200px;
+}
+
+.schedule-table-row div.bottom {
+	border-bottom: 2px solid #aec4d1;
+}
+
+.schedule-column {
+	width: 200px;
+}
+
+.week-subtitle {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.reading-week {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+
+/*---------- form style ----------*/
 
 .form-input {
 	width: 100%;
@@ -199,52 +350,23 @@ div.schedule-table {
 	cursor: pointer;
 }
 
-/*----------- footer --------------*/
+
+/*----------- footer style --------------*/
 
 footer {
-	background-color: #fef8cd;
+	font-size: 14px;
+	background-color: #effcfd;
 	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
-img.compsci-logo {
-	max-width: 300px; 
-	height: auto; 
-	width: 100%; 
-	margin: 0 auto; 
-	display: block; 
-	margin-bottom: 20px;
-	border: 1px solid #fef8cd;
+.footer-text {
+	text-align: center;
+	color: #575757;
+	line-height: 1.5;
 }
 
-img.compsci-logo:hover{
-	border: 1px solid #cacaca;
-}
-
-
-/*---- link -----*/
-
-a {
-	color: #8366f2;
-	text-decoration: none;
-}
-
-a:link, a:visited {
-	color: #8366f2;;
-}
-
-a:hover {
-    color: #C966F2;
-}
-
-a.nav-link {
-	color: #b1f3f6;
-	margin-right: 10px;
-}
-
-a.nav-link:link, a.nav-link: visited {
-	color: #b1f3f6;
-}
-
-a.nav-link:hover {
-	color: #f5afad;
+.footer-text p {
+	margin-bottom: 0;
+	margin-top: 0;
 }
