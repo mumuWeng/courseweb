@@ -166,3 +166,29 @@ a.nav-link:hover {
 
 	margin-top: 90px;
 }
+
+.schedule-options {
+	display:none;
+	position: relative;
+    top: 70px;
+    margin: 0 auto;
+}
+
+.show-option:hover + .schedule-options {
+	display: block;
+}
+
+.form-input {
+	width: 100%;
+	line-height: 2;
+	border: 1px solid #cacaca;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.form-textarea {
+	height: 150px;
+	width: 100%;
+	border: 1px solid #cacaca;
+	margin-top: 5px;
+}
