@@ -5,75 +5,201 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div class="title-group">
+		<nav class="title-group">
 			<div style="display: inline-block;"><h2 align="center">CSC309: Programming on the Web</h2></div><div style="display: inline-block; margin-left: 20px;"><h3 align="center">Winter 2016</h3></div>
-			<div class="nav-bar" style="display: block; color: black;"><span class="bold-text" style="color: white;">Home	Syllabus	Staff	Piazza	Markus	Assignments	Feedback	CDF Labs</span></div>
-		</div>
+			<div class="nav-bar" style="display: block; color: black;">
+				<span class="bold-text" style="color: white;">
+					<a class="nav-link" href="#home">Home</a>	
+					<a class="nav-link" href="#staff">Staff</a>	
+					<a class="nav-link" href="#syllabus">Syllabus</a>	
+					<a class="nav-link" href="#assignment">Assignments</a>	
+					<a class="nav-link" href="#feedback">Feedback</a>
+					<a class="nav-link" href="https://piazza.com/class/ij76iue0b6i6wl" target="_blank">Piazza</a>	
+					<a class="nav-link" href="https://markus.cdf.toronto.edu/csc309-2016-01/?locale=en" target="_blank">Markus</a>
+					<a class="nav-link" >CDF Labs</a>
+				</span>
+			</div>
+		</nav>
+
 		<div class="content-group">
-			<div class="content">
-				<div class="title">
-					<h3>Overview</h3>
-				</div>
-				<div class="info">
-					<div align="center"><span style="color:#DEEDC2;">W</span><span style="color:#CE8964;">e</span><span style="color:#FCCDB1;">l</span><span style="color:#ED88A2;">c</span><span style="color:#321A3C;">o</span><span style="color:#777F85;">m</span><span style="color:#86D8D4;">e</span><span style="color:#86B4D8;"> t</span><span style="color:#A27FA7;">o </span><span style="color:#700D50;">C</span><span style="color:#FF5287;">S</span><span style="color:#EC9919;">C</span><span style="color:#832232;">3</span><span style="color:#54C27B;">0</span><span style="color:#2EC6C7;">9</span><span style="color:#370031;">!</span></div>
-					<p>This course provides an introduction to the technologies used for developing Web applications. We discuss technologies for static and dynamic content generation, including N-tier, MVC architectures, and mobile supported web development. We also cover general web design principles, security, and web performance.</p>
-				</div>
-			</div>
-			<div class="content">
-				<div class="title">
-					<h3>Course Team</h3>
-				</div>
-				<div class="info">
-					<p>Instructor<br/>
-						Mashiyat, Ahmed Shah<br/>
-					Email: <a href="mailto:mashiyat@cs.toronto.edu">mashiyat@cs.toronto.edu</a><br/>
-					Office Hours: Fridays, 4.30pm-6pm, Office: BA 3289 (or by appointment)<br/>
-					<p>Teaching Assistants<br/>
-					Zhicong Lu luzhc@cs.toronto.edu<br/>
-					Ayazhan Zhakhanzh.ayazhan@gmail.com<br/>
-					Muhammad Talha Malikmalik@ece.utoronto.ca<br/>
-					Ning LIN ning.lin@mail.utoronto.ca<br/>
-					Kyriakos Georgiou kyriakos@cs.toronto.edu<br/>
-					Ihsan Etwaroo ihsan.etwaroo@mail.utoronto.ca<br/>
-					Mohammad Hossein Danesh danesh@cs.toronto.edu<br/>
-					
+			<div class="section" id="home">
+				<div class="content">
+					<div class="title">
+						<h3>Overview</h3>
+					</div>
+					<div class="info">
+						<div align="center"><span style="color:#DEEDC2;">W</span><span style="color:#CE8964;">e</span><span style="color:#FCCDB1;">l</span><span style="color:#ED88A2;">c</span><span style="color:#321A3C;">o</span><span style="color:#777F85;">m</span><span style="color:#86D8D4;">e</span><span style="color:#86B4D8;"> t</span><span style="color:#A27FA7;">o </span><span style="color:#700D50;">C</span><span style="color:#FF5287;">S</span><span style="color:#EC9919;">C</span><span style="color:#832232;">3</span><span style="color:#54C27B;">0</span><span style="color:#2EC6C7;">9</span><span style="color:#370031;">!</span></div>
+						<p>This course provides an introduction to the technologies used for developing Web applications. We discuss technologies for static and dynamic content generation, including N-tier, MVC architectures, and mobile supported web development. We also cover general web design principles, security, and web performance.</p>
+					</div>
 				</div>
 			</div>
-			<div class="content">
-				<div class="title">
-					<h3>Syllabus</h3>
+
+			<div class="section" id="staff">
+				<div class="content">
+					<div class="title">
+						<h3>Course Team</h3>
+					</div>
+					<div class="info">
+						<div>
+							<h3 style="text-align: left; margin-bottom: 0;">Instructor</h3><br/>
+							<div class="avatar" style="background-image:url('http://static.tumblr.com/bbb9b0a1fca75597bde5edaf41d34b8a/hqkxv9y/3Tamx31d6/tumblr_static_mashiyat.jpg'); display: inline-block"></div>
+							<div style="display: inline-block; position: absolute; margin-left: 30px;">
+								<p style="margin-top: 0;">
+									Mashiyat Ahmed Shah<br/>
+									Email: <a href="mailto:mashiyat@cs.toronto.edu">mashiyat@cs.toronto.edu</a><br/>
+									Office Hours: Fridays, 4.30pm-6pm, Office: BA 3289 (or by appointment)<br/>
+								</p>
+							</div>
+						</div>
+							<h3 style="text-align: left; margin-bottom: 10px; margin-top: 10px;">Teaching Assistants</h3>
+							<div class="assistant-block">
+								<div class="small_avatar" style="background-image:url('https://i1.rgstatic.net/ii/profile.image/AS%3A278604849139744@1443435980776_l/Zhicong_Lu.png'); display: inline-block; background-position: center;"></div>
+								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+									<p style="margin-top: 0;">
+										Zhicong Lu<br/>
+										Email: <a href="mailto:luzhc@cs.toronto.edu">luzhc@cs.toronto.edu</a><br/>
+									</p>
+								</div>
+							</div>
+
+							<div class="assistant-block">
+								<div class="small_avatar" style="background-image:url('https://d1qb2nb5cznatu.cloudfront.net/users/1211979-medium_jpg?1447875033'); display: inline-block; background-position: center;"></div>
+								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+									<p style="margin-top: 0;">
+										Ayazhan Zhakhan<br/>
+										Email: <a href="mailto:Zhakhanzh.ayazhan@gmail.com">Zhakhanzh.ayazhan@gmail.com</a><br/>		
+									</p>
+								</div>
+							</div>
+							<div class="assistant-block">
+								<div class="small_avatar" style="background-image:url('https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/029/398/0ea3f66.jpg'); display: inline-block; background-position: center;" ></div>
+								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+									<p style="margin-top: 0;">
+										Kyriakos Georgiou<br/>
+										Email: <a href="mailto:kyriakos@cs.toronto.edu">kyriakos@cs.toronto.edu</a><br/>
+									</p>
+								</div>
+							</div>
+							<div class="assistant-block">
+								<div class="small_avatar" style="background-image:url('https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAYjAAAAJDE5ODJiNDFiLTA3MDEtNDhkMC05ZmEyLTk0NmNlZjZjMjBkNw.jpg'); display: inline-block;"></div>
+								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+									<p style="margin-top: 0;">
+										Ihsan Etwaroo<br/>
+										Email: <a href="mailto:kyriakos@cs.toronto.edu">ihsan.etwaroo@mail.utoronto.ca</a><br/>
+									</p>
+								</div>
+							</div>
+							<div class="assistant-block">
+								<div class="small_avatar" style="background-image:url('https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/000/14c/0a0/2c1a937.jpg'); display: inline-block;"></div>
+								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+									<p style="margin-top: 0;">
+										Mohammad Hossein Danesh<br/>
+										Email: <a href="mailto:kyriakos@cs.toronto.edu">danesh@cs.toronto.edu</a><br/>
+									</p>
+								</div>
+							</div>
+							<div class="assistant-block">
+								<div class="small_avatar" style="background-image:url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAO3AAAAJDA5YjBkYjU3LWQ0MjYtNDRjNy1iOTA1LWM2YjFlZmRjY2IwOQ.jpg'); display: inline-block;"></div>
+								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+									<p style="margin-top: 0;">
+										Ning Lin<br/>
+										Email: <a href="mailto:kyriakos@cs.toronto.edu">ning.lin@mail.utoronto.ca</a><br/>
+									</p>
+								</div>
+							</div>
+							<div class="assistant-block">
+								<div class="small_avatar" style="background-image:url('http://www.votipets.com/images/avatars/anonymous.jpg'); display: inline-block;"></div>
+								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+									<p style="margin-top: 0;">
+										Muhammad Talha<br/>
+										Email: <a href="mailto:Malikmalik@ece.utoronto.ca">Malikmalik@ece.utoronto.ca</a><br/>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="info">
-					Discussion forum: <a href="https://piazza.com/class/ij76iue0b6i6wl" target="_blank">https://piazza.com/class/ij76iue0b6i6wl</a><br/>
-					Markus: <a href="https://markus.cdf.toronto.edu/csc309-2016-01/?locale=en" target="_blank">https://markus.cdf.toronto.edu/csc309-2016-01/?locale=en</a><br/>
-					<span class="bold-text">Section L0101/L2001</span><br/>
-					Class: Mondays, Wednesdays, 10am-11am, Room: SS2118<br/>
-					Tutorials: Fridays, 10am-11am, Room: SS2102<br/>
-					<span class="bold-text">Section L2501/L5101</span><br/>
-		        	Class: Mondays, 6pm-8pm, Room: BA1170<br/>
-					Tutorials: Mondays, 8pm-9pm, Room: BA1170<br/></p>
-					<p>Web Programming Step by Step, by Marty Steep, Jessica Miller and Victoria Kirst. Standard documents from: <a href="http://www.w3.org" target="_blank">http://www.w3.org</a>, and <a href="http://nodejs.org/api/" target="_blank">http://nodejs.org/api/</a></p>
+			</div>
+
+			<div class="section" id="syllabus">
+				<div class="content" id="syllabus">
+					<div class="title">
+						<h3>Syllabus</h3>
+					</div>
+					<div class="info">
+						<div>
+							<h3 style="text-align: left; margin-bottom: 0">Logistics</h3>
+							<p>
+								<span class="bold-text">Section L0101/L2001</span><br/>
+								Class: Mondays, Wednesdays, 10am-11am, Room: SS2118<br/>
+								Tutorials: Fridays, 10am-11am, Room: SS2102<br/><br/>
+								<span class="bold-text">Section L2501/L5101</span><br/>
+					        	Class: Mondays, 6pm-8pm, Room: BA1170<br/>
+								Tutorials: Mondays, 8pm-9pm, Room: BA1170<br/></p>
+						</div><hr/>
+
+						<div>
+							<h3 style="text-align: left; margin-bottom: 0">Prerequisite</h3>
+							<ul>
+								<li>CSC209H1 - Software Tools and Systems Programming</li>
+								<li>CSC343H1 - Introduction to Databases (Automatically Waived)</li>
+							</ul>
+							<p>
+								Note: Students that would like to attend CSC309 but miss prerequisite CSC209H1 would need to email the instructor asking for a course prerequisite waiver. 
+							</p>
+						</div><hr/>
+
+						<div>
+							<h3 style="text-align: left; margin-bottom: 0">Textbooks</h3>
+							<div>
+								<div style="display: inline-block;">
+									<img src="assets/world_wide_web.jpg" style="max-width: 150px; height: auto; width: 100%">
+								</div>
+								<div style="display: inline-block">
+									<p>Robert W. Sebesta. Programming the World Wide Web, 7/E. Addison-Wesley, 2011. (Sebesta)</p>
+								</div>
+							</div>
+							<div>
+								<div style="display: inline-block">
+									<img src="assets/web_programming.jpg" style="max-width: 150px; height: auto; width: 100%">
+								</div>
+								<div style="display:inline-block">
+									<p>Marty Stepp, Jessica Miller, Victoria Kirst. Web Programming Step by Step, 2/E. 2012. (Webstepbook)</p>
+								</div>
+							</div>
+						</div><hr/>
+
+						<div>
+							<h3 style="text-align: left; margin-bottom: 0">General Scheme</h3>
+						</div>
+						
+						<div>
+							Assignment/Project Policies<br/>
+							<ul>
+								<li>Assignments will be posted on the course web page. Deadlines are fixed. <span class="bold-text-color">No extension will be allowed.</span></li>
+								<li>All deliverables should be submitted electronically (through markus).</li>
+								<li>Assignments are due at 11.59 pm on their due date. <span class="bold-text-color">Submit early to avoid last minute submission related problems.</span> Email submission will not be be accepted unless markus is down. Email submission at the eleventh hour will be considered as late submission.</li>
+							</ul>
+							<ol>
+								<li>Late coursework. You can turn in your assignment up to <span class="bold-text-color">2 days late</span>, but this will cost you 10% of the maximum grade for every day you are late (i.e., an assignment turned 2 days late  can get a maximum of 12/15). <span class="bold-text-color">No assignment will be accepted after 2 days, and will be given a grade of 0.</span> If you are struggling with an assignment, talk to the instructor or the TA&#39;s for help well before the deadline.</li>
+								<li>Re-marking. You have up to 5 days from the time the marked assignment is available for hand-back to ask for a re-mark. <span class="bold-text-color">No assignment will be re-marked after this period.</span> Details will be posted on the course&#39;s newsgroup. If you are still dissatisfied after talking to the TA, then email the instructor to set an appointment.</li>
+								<li>Communications. Your best bet for getting questions answered quickly is to post to the course discussion group. If you think your question is not appropriate for the newsgroup, feel free to email the instructor. Please make sure to include &ldquo;CSC309&rdquo; in the subject line of your email. Finally, before you email the instructor, please check the newsgroup; your question may have already been answered.</li>
+								<li>Cheating/Plagiarism. The policy of your faculty or school will be in effect. You are encouraged to discuss problems with your classmates; however, all work that you submit must be your own. When you submit an assignment with your name on it, you are certifying that you have done the work on that assignment yourself. Remember that the penalty for cheating is always worse than handing in the assignment late.</li>
+							</ol>
+						</div>
+					</div>
 				</div>
 			</div>
 
 			<div class="content">
 				<div class="title">
-					<h3>Prerequisite</h3>
-				</div>
-				<div class="info">
-					<p>Prerequisite of CSC343 is waived. Students who don&#39;t have CSC209 need to show experience in developing programs of significant size.</p>
-				</div>
-			</div>
-			<div class="content">
-				<div class="title">
-					<h3>General Scheme and Assignments</h3>
+					<h3>Assignments</h3>
 				</div>
 				<div class="table info">
 					<div class="table-head">
 						<div class="table-row">
 							<div class="left"></div>
 							<div></div>
-							<div>Weight %</div>
 							<div>Out</div>
 							<div>Due</div>
 						</div>
@@ -82,66 +208,37 @@
 						<div class="table-row">
 							<div class="left"><a href="https://www.cs.toronto.edu/~mashiyat/csc309/Assignments/CSC309-A1.pdf" target="_blank">A1: Redesign Course Website</a></div>
 							<div>Individual</div>
-							<div>10</div>
 							<div>January 13</div>
 							<div>January 27</div>
 						</div>
 						<div class="table-row">
 							<div class="left">A2: Online Game</div>
 							<div>Group of 2</div>
-							<div>15</div>
 							<div>January 28</div>
 							<div>Febuary 14</div>
 						</div>
 						<div class="table-row">
 							<div class="left">A3: Web Service</div>
 							<div>Individual</div>
-							<div>15</div>
 							<div>Febuary 15</div>
 							<div>Febuary 28</div>
 						</div>
 						<div class="table-row">
 							<div class="left">A4: Web App - Part 1: Idea and Frontend</div>
 							<div>Group of 4</div>
-							<div>5</div>
 							<div>Febuary 29</div>
 							<div>March 9</div>
 						</div>
 						<div class="table-row">
-							<div class="left">A4: Web App - Part 2: Full App</div>
-							<div>Group of 4</div>
-							<div>20</div>
-							<div></div>
-							<div>April 3</div>
-						</div>
-						<div class="table-row">
-							<div class="left bottom">Final Exam</div>
+							<div class="left bottom">A4: Web App - Part 2: Full App</div>
+							<div class="bottom">Group of 4</div>
 							<div class="bottom"></div>
-							<div class="bottom">35 (Pass mark: above 40%)</div>
-							<div class="bottom"></div>
-							<div class="bottom">TBA</div>
+							<div class="bottom">April 3</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="content">
-				<div class="title">
-					<h3>Assignment/Project Policies</h3>
-				</div>
-				<div class="info">
-					<ul>
-						<li>Assignments will be posted on the course web page. Deadlines are fixed. <span class="bold-text-color">No extension will be allowed.</span></li>
-						<li>All deliverables should be submitted electronically (through markus).</li>
-						<li>Assignments are due at 11.59 pm on their due date. <span class="bold-text-color">Submit early to avoid last minute submission related problems.</span> Email submission will not be be accepted unless markus is down. Email submission at the eleventh hour will be considered as late submission.</li>
-					</ul>
-					<ol>
-						<li>Late coursework. You can turn in your assignment up to <span class="bold-text-color">2 days late</span>, but this will cost you 10% of the maximum grade for every day you are late (i.e., an assignment turned 2 days late  can get a maximum of 12/15). <span class="bold-text-color">No assignment will be accepted after 2 days, and will be given a grade of 0.</span> If you are struggling with an assignment, talk to the instructor or the TA&#39;s for help well before the deadline.</li>
-						<li>Re-marking. You have up to 5 days from the time the marked assignment is available for hand-back to ask for a re-mark. <span class="bold-text-color">No assignment will be re-marked after this period.</span> Details will be posted on the course&#39;s newsgroup. If you are still dissatisfied after talking to the TA, then email the instructor to set an appointment.</li>
-						<li>Communications. Your best bet for getting questions answered quickly is to post to the course discussion group. If you think your question is not appropriate for the newsgroup, feel free to email the instructor. Please make sure to include &ldquo;CSC309&rdquo; in the subject line of your email. Finally, before you email the instructor, please check the newsgroup; your question may have already been answered.</li>
-						<li>Cheating/Plagiarism. The policy of your faculty or school will be in effect. You are encouraged to discuss problems with your classmates; however, all work that you submit must be your own. When you submit an assignment with your name on it, you are certifying that you have done the work on that assignment yourself. Remember that the penalty for cheating is always worse than handing in the assignment late.</li>
-					</ol>
-				</div>
-			</div>
+
 			<div class="content">
 				<div class="title">
 					<h3>Class Schedule (Section L0101/L2001)</h3>
@@ -598,6 +695,21 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="title">
+				<h3>Anonymous Feedback</h3>
+			</div>
+			<div class="info">
+				<form>
+					Name:<br/>
+					<input type="text">
+					Email:<br/>
+					<input type="text">
+					Comment:<br/>
+					<input type="textarea"
+				</form>
 			</div>
 		</div>
 		<footer>
