@@ -2,13 +2,18 @@
 <html>
 	<head>
 		<title>CSC309: Programming on the Web</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<nav class="title-group">
-			<div style="display: inline-block;"><h2 align="center">CSC309: Programming on the Web</h2></div><div style="display: inline-block; margin-left: 20px;"><h3 align="center">Winter 2016</h3></div>
-			<div class="nav-bar" style="display: block; color: black;">
-				<span class="bold-text" style="color: white;">
+			<div style="display: inline-block;">
+				<h2>CSC309: Programming on the Web</h2>
+			</div>
+			<div style="display: inline-block; margin-left: 20px;">
+				<h3 align="center">Winter 2016</h3>
+			</div>
+			<div class="nav-bar" style="display: block;">
+				<span class="bold-text">
 					<a class="nav-link" href="#home">Home</a>	
 					<a class="nav-link" href="#staff">Staff</a>	
 					<a class="nav-link" href="#syllabus">Syllabus</a>	
@@ -17,19 +22,36 @@
 					<a class="nav-link" href="#feedback">Feedback</a>
 					<a class="nav-link" href="https://piazza.com/class/ij76iue0b6i6wl" target="_blank">Piazza</a>	
 					<a class="nav-link" href="https://markus.cdf.toronto.edu/csc309-2016-01/?locale=en" target="_blank">Markus</a>
-					<a class="nav-link">CDF Labs</a>
+					<a class="nav-link" href="http://www.cdf.toronto.edu/" target="_blank">CDF Labs</a>
 				</span>
 			</div>
 		</nav>
 
 		<div class="content-group">
-			<div class="section" id="home">
+			<div class="section-home" id="home">
 				<div class="content">
 					<div class="title">
 						<h3>Overview</h3>
 					</div>
 					<div class="info">
-						<div align="center"><span style="color:#DEEDC2;">W</span><span style="color:#CE8964;">e</span><span style="color:#FCCDB1;">l</span><span style="color:#ED88A2;">c</span><span style="color:#321A3C;">o</span><span style="color:#777F85;">m</span><span style="color:#86D8D4;">e</span><span style="color:#86B4D8;"> t</span><span style="color:#A27FA7;">o </span><span style="color:#700D50;">C</span><span style="color:#FF5287;">S</span><span style="color:#EC9919;">C</span><span style="color:#832232;">3</span><span style="color:#54C27B;">0</span><span style="color:#2EC6C7;">9</span><span style="color:#370031;">!</span></div>
+						<div align="center">
+							<span style="color:#DEEDC2;">W</span>
+							<span style="color:#CE8964;">e</span>
+							<span style="color:#FCCDB1;">l</span>
+							<span style="color:#ED88A2;">c</span>
+							<span style="color:#321A3C;">o</span>
+							<span style="color:#777F85;">m</span>
+							<span style="color:#86D8D4;">e</span>&nbsp;
+							<span style="color:#86B4D8;">t</span>
+							<span style="color:#A27FA7;">o</span>&nbsp;
+							<span style="color:#700D50;">C</span>
+							<span style="color:#FF5287;">S</span>
+							<span style="color:#EC9919;">C</span>
+							<span style="color:#832232;">3</span>
+							<span style="color:#54C27B;">0</span>
+							<span style="color:#2EC6C7;">9</span>
+							<span style="color:#370031;">!</span>
+						</div>
 						<p>This course provides an introduction to the technologies used for developing Web applications. We discuss technologies for static and dynamic content generation, including N-tier, MVC architectures, and mobile supported web development. We also cover general web design principles, security, and web performance.</p>
 					</div>
 				</div>
@@ -43,20 +65,21 @@
 					<div class="info">
 						<div>
 							<h3 style="text-align: left; margin-bottom: 0;">Instructor</h3><br/>
-							<div class="avatar" style="background-image:url('http://static.tumblr.com/bbb9b0a1fca75597bde5edaf41d34b8a/hqkxv9y/3Tamx31d6/tumblr_static_mashiyat.jpg'); display: inline-block"></div>
-							<div style="display: inline-block; position: absolute; margin-left: 30px;">
+							<div class="avatar" style="background-image:url('assets/mashiyat.jpg'); display: inline-block;"></div>
+							<div style="display: inline-block; position: absolute;">
 								<p style="margin-top: 0;">
 									Mashiyat Ahmed Shah<br/>
 									Email: <a href="mailto:mashiyat@cs.toronto.edu">mashiyat@cs.toronto.edu</a><br/>
-									Office Hours: Fridays, 4.30pm-6pm, Office: BA 3289 (or by appointment)<br/>
+									Office: BA 3289<br/>
+									Office Hours: Fridays, 4:30pm - 6pm (or by appointment)<br/>
 								</p>
 							</div>
 						</div>
 						<div>
 							<h3 style="text-align: left; margin-bottom: 10px; margin-top: 10px;">Teaching Assistants</h3>
 							<div class="assistant-block">
-								<div class="small_avatar" style="background-image:url('https://i1.rgstatic.net/ii/profile.image/AS%3A278604849139744@1443435980776_l/Zhicong_Lu.png'); display: inline-block; background-position: center;"></div>
-								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+								<div class="small_avatar" style="background-image:url('assets/zhicong_lu.png'); display: inline-block;"></div>
+								<div style="display: inline-block; position: absolute;">
 									<p style="margin-top: 0;">
 										Zhicong Lu<br/>
 										Email: <a href="mailto:luzhc@cs.toronto.edu">luzhc@cs.toronto.edu</a><br/>
@@ -65,8 +88,8 @@
 							</div>
 
 							<div class="assistant-block">
-								<div class="small_avatar" style="background-image:url('https://d1qb2nb5cznatu.cloudfront.net/users/1211979-medium_jpg?1447875033'); display: inline-block; background-position: center;"></div>
-								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+								<div class="small_avatar" style="background-image:url('assets/ayazhan.jpeg'); display: inline-block; background-position: center;"></div>
+								<div style="display: inline-block; position: absolute;">
 									<p style="margin-top: 0;">
 										Ayazhan Zhakhan<br/>
 										Email: <a href="mailto:Zhakhanzh.ayazhan@gmail.com">Zhakhanzh.ayazhan@gmail.com</a><br/>		
@@ -74,8 +97,8 @@
 								</div>
 							</div>
 							<div class="assistant-block">
-								<div class="small_avatar" style="background-image:url('https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/029/398/0ea3f66.jpg'); display: inline-block; background-position: center;" ></div>
-								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+								<div class="small_avatar" style="background-image:url('assets/kyriakos.jpg'); display: inline-block; background-position: center;" ></div>
+								<div style="display: inline-block; position: absolute;">
 									<p style="margin-top: 0;">
 										Kyriakos Georgiou<br/>
 										Email: <a href="mailto:kyriakos@cs.toronto.edu">kyriakos@cs.toronto.edu</a><br/>
@@ -83,8 +106,8 @@
 								</div>
 							</div>
 							<div class="assistant-block">
-								<div class="small_avatar" style="background-image:url('https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAYjAAAAJDE5ODJiNDFiLTA3MDEtNDhkMC05ZmEyLTk0NmNlZjZjMjBkNw.jpg'); display: inline-block;"></div>
-								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+								<div class="small_avatar" style="background-image:url('assets/ihsan.png'); display: inline-block;"></div>
+								<div style="display: inline-block; position: absolute;">
 									<p style="margin-top: 0;">
 										Ihsan Etwaroo<br/>
 										Email: <a href="mailto:kyriakos@cs.toronto.edu">ihsan.etwaroo@mail.utoronto.ca</a><br/>
@@ -92,8 +115,8 @@
 								</div>
 							</div>
 							<div class="assistant-block">
-								<div class="small_avatar" style="background-image:url('https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/000/14c/0a0/2c1a937.jpg'); display: inline-block;"></div>
-								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+								<div class="small_avatar" style="background-image:url('assets/mohammad.jpg'); display: inline-block;"></div>
+								<div style="display: inline-block; position: absolute;">
 									<p style="margin-top: 0;">
 										Mohammad Hossein Danesh<br/>
 										Email: <a href="mailto:kyriakos@cs.toronto.edu">danesh@cs.toronto.edu</a><br/>
@@ -101,8 +124,8 @@
 								</div>
 							</div>
 							<div class="assistant-block">
-								<div class="small_avatar" style="background-image:url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAO3AAAAJDA5YjBkYjU3LWQ0MjYtNDRjNy1iOTA1LWM2YjFlZmRjY2IwOQ.jpg'); display: inline-block;"></div>
-								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+								<div class="small_avatar" style="background-image:url('assets/ning.jpg'); display: inline-block;"></div>
+								<div style="display: inline-block; position: absolute;">
 									<p style="margin-top: 0;">
 										Ning Lin<br/>
 										Email: <a href="mailto:kyriakos@cs.toronto.edu">ning.lin@mail.utoronto.ca</a><br/>
@@ -111,7 +134,7 @@
 							</div>
 							<div class="assistant-block">
 								<div class="small_avatar" style="background-image:url('http://www.votipets.com/images/avatars/anonymous.jpg'); display: inline-block;"></div>
-								<div style="display: inline-block; position: absolute; margin-left: 30px;">
+								<div style="display: inline-block; position: absolute;">
 									<p style="margin-top: 0;">
 										Muhammad Talha<br/>
 										Email: <a href="mailto:Malikmalik@ece.utoronto.ca">Malikmalik@ece.utoronto.ca</a><br/>
@@ -140,7 +163,7 @@
 								Tutorials: Mondays, 8pm-9pm, Room: BA1170<br/></p>
 						</div><hr/>
 
-						<div>
+						<div style="margin-top: 20px;">
 							<h3 style="text-align: left; margin-bottom: 0">Prerequisite</h3>
 							<ul>
 								<li><a href="http://www.cdf.toronto.edu/~csc209h/winter/index.shtml" target="_blank">CSC209H1 - Software Tools and Systems Programming</a></li>
@@ -151,19 +174,19 @@
 							</p>
 						</div><hr/>
 
-						<div>
-							<h3 style="text-align: left; margin-bottom: 0">Textbooks</h3>
-							<div>
+						<div style="margin-top: 20px;">
+							<h3 style="text-align: left; margin-bottom: 10px;">Textbooks</h3>
+							<div style="margin-bottom: 10px">
 								<div style="display: inline-block;">
-									<img src="assets/world_wide_web.jpg" style="max-width: 150px; height: auto; width: 100%">
+									<img src="assets/world_wide_web.jpg" style="max-width: 120px; height: auto; width: 100%">
 								</div>
 								<div style="display: inline-block; position: absolute; margin-left: 30px;">
 									<p style="margin-top: 0;">Robert W. Sebesta. Programming the World Wide Web, 7/E. Addison-Wesley, 2011. (Sebesta)</p>
 								</div>
 							</div>
-							<div>
+							<div style="margin-bottom: 10px">
 								<div style="display: inline-block">
-									<img src="assets/web_programming.jpg" style="max-width: 150px; height: auto; width: 100%">
+									<img src="assets/web_programming.jpg" style="max-width: 120px; height: auto; width: 100%">
 								</div>
 								<div style="display: inline-block; position: absolute; margin-left: 30px;">
 									<p style="margin-top: 0;">Marty Stepp, Jessica Miller, Victoria Kirst. Web Programming Step by Step, 2/E. 2012. (Webstepbook)</p>
@@ -171,40 +194,40 @@
 							</div>
 						</div><hr/>
 		
-						<div>
+						<div style="margin-top: 20px;">
 							<h3 style="text-align: left; margin-bottom: 0">General Scheme</h3>
 							<div class="table">
 								<div class="table-head">
 									<div class="table-row">
 										<div class="left">Work</div>
-										<div>Weight (%)</div>
+										<div>Weight</div>
 										<div>Comment</div>
 									</div>
 								</div>
 								<div class="table-body">
 									<div class="table-row">
 										<div class="left"><a href="https://www.cs.toronto.edu/~mashiyat/csc309/Assignments/CSC309-A1.pdf" target="_blank">Assignment 1</a></div>
-										<div>10</div>
+										<div>10%</div>
 										<div>Redesign Course Website</div>
 									</div>
 									<div class="table-row">
 										<div class="left">Assignment 2</div>
-										<div>15</div>
+										<div>15%</div>
 										<div>Online Game</div>
 									</div>
 									<div class="table-row">
 										<div class="left">Assignment 3</div>
-										<div>15</div>
+										<div>15%</div>
 										<div>Web Service</div>
 									</div>
 									<div class="table-row">
 										<div class="left">Assignment 4 (Part1)</div>
-										<div>5</div>
+										<div>5%</div>
 										<div>Web App: Idea and Frontend</div>
 									</div>
 									<div class="table-row">
 										<div class="left">Assignment 4 (Part2)</div>
-										<div>20</div>
+										<div>20%</div>
 										<div>Full App</div>
 									</div>
 									<div class="table-row">
@@ -216,7 +239,7 @@
 							</div>
 						</div><hr/>
 
-						<div>
+						<div style="margin-top: 20px;">
 							<h3 style="text-align: left; margin-bottom: 0">Assignment/Project Policies</h3>
 							<ul>
 								<li>Assignments will be posted on the course web page. Deadlines are fixed. <span class="bold-text-color">No extension will be allowed.</span></li>
@@ -239,45 +262,48 @@
 					<div class="title">
 						<h3>Assignments</h3>
 					</div>
-					<div class="table info">
-						<div class="table-head">
-							<div class="table-row">
-								<div class="left"></div>
-								<div></div>
-								<div>Out</div>
-								<div>Due</div>
+					<div class="info">
+						<p>Assignments will be released here.</p>
+						<div class="table">
+							<div class="table-head">
+								<div class="table-row">
+									<div class="left"></div>
+									<div></div>
+									<div>Out</div>
+									<div>Due</div>
+								</div>
 							</div>
-						</div>
-						<div class="table-body">
-							<div class="table-row">
-								<div class="left"><a href="https://www.cs.toronto.edu/~mashiyat/csc309/Assignments/CSC309-A1.pdf" target="_blank">A1: Redesign Course Website</a></div>
-								<div>Individual</div>
-								<div>January 13</div>
-								<div>January 27</div>
-							</div>
-							<div class="table-row">
-								<div class="left">A2: Online Game</div>
-								<div>Group of 2</div>
-								<div>January 28</div>
-								<div>Febuary 14</div>
-							</div>
-							<div class="table-row">
-								<div class="left">A3: Web Service</div>
-								<div>Individual</div>
-								<div>Febuary 15</div>
-								<div>Febuary 28</div>
-							</div>
-							<div class="table-row">
-								<div class="left">A4: Web App - Part 1: Idea and Frontend</div>
-								<div>Group of 4</div>
-								<div>Febuary 29</div>
-								<div>March 9</div>
-							</div>
-							<div class="table-row">
-								<div class="left bottom">A4: Web App - Part 2: Full App</div>
-								<div class="bottom">Group of 4</div>
-								<div class="bottom"></div>
-								<div class="bottom">April 3</div>
+							<div class="table-body">
+								<div class="table-row">
+									<div class="left"><a href="https://www.cs.toronto.edu/~mashiyat/csc309/Assignments/CSC309-A1.pdf" target="_blank">A1: Redesign Course Website</a></div>
+									<div>Individual</div>
+									<div>January 13</div>
+									<div>January 27</div>
+								</div>
+								<div class="table-row">
+									<div class="left">A2: Online Game</div>
+									<div>Group of 2</div>
+									<div>January 28</div>
+									<div>Febuary 14</div>
+								</div>
+								<div class="table-row">
+									<div class="left">A3: Web Service</div>
+									<div>Individual</div>
+									<div>Febuary 15</div>
+									<div>Febuary 28</div>
+								</div>
+								<div class="table-row">
+									<div class="left">A4: Web App - Part 1: Idea and Frontend</div>
+									<div>Group of 4</div>
+									<div>Febuary 29</div>
+									<div>March 9</div>
+								</div>
+								<div class="table-row">
+									<div class="left bottom">A4: Web App - Part 2: Full App</div>
+									<div class="bottom">Group of 4</div>
+									<div class="bottom"></div>
+									<div class="bottom">April 3</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -293,8 +319,8 @@
 						<a href="#schedule1">Section L0101/L2001</a> | <a href="#schedule2">Section L2501/L5101</a>
 					</div>
 					<div class="info">
-						Week 1
-						<div class="table">
+						<span class="bold-text">Week 1 (January 11, 13, 15)</span>
+						<div class="schedule-table">
 							<div class="table-head">
 								<div class="table-row">
 									<div class="left"></div>
@@ -315,8 +341,8 @@
 								</div>
 							</div>
 						</div>
-						Week 2
-						<div class="table" style="width: 100%;">
+						<span class="bold-text">Week 2 (January 18, 20, 22)</span>
+						<div class="schedule-table" style="width: 100%;">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -330,18 +356,14 @@
 								</div>
 							</div>
 						</div>
-						Week 3
-						<div class="table">
+						<span class="bold-text">Week 3 (January 25, 27)</span><br/>
+						<span>Assignment 1 due on January 27 (Wednesday) at 11:59pm; Assignment 2 released.</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
 									<div>January 25, 27</div>
 									<div>Javascript, HTML Canvas</div>
-								</div>
-								<div class="table-row">
-									<div class="left"></div>
-									<div>January 27</div>
-									<div>Assignment 1 Due, 11.59 PM</div>
 								</div>
 								<div class="table-row">
 									<div class="left bottom">Tutorial</div>
@@ -350,8 +372,8 @@
 								</div>
 							</div>
 						</div>
-						Week 4
-						<div class="table">
+						<span class="bold-text">Week 4 (February 1, 3, 5)</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -365,8 +387,9 @@
 								</div>
 							</div>
 						</div>
-						Week 5
-						<div class="table">
+						<span class="bold-text">Week 5 (Februry 8, 10, 12)</span>
+						<span>Assignment 2 due on February 14 (Sunday) at 11:59pm</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -374,23 +397,21 @@
 									<div>HTML Forms, Server-Side Programming, NodeJS</div>
 								</div>
 								<div class="table-row">
-									<div class="left">Tutorial</div>
-									<div>February 12</div>
-									<div>Nodejs-MongoDB Setup</div>
-								</div>
-								<div class="table-row">
-									<div class="left bottom"></div>
-									<div class="bottom">February 14</div>
-									<div class="bottom">Assignment 2 Due, 11.59 PM</div>
+									<div class="left bottom">Tutorial</div>
+									<div class="bottom">February 12</div>
+									<div class="bottom">Nodejs-MongoDB Setup</div>
 								</div>
 							</div>
 						</div>
-						Week 6
+
+						<span class="bold-text">Week 6</span>
 						<div>
-							Reading week. No class!
+							<span>Assignment 3 released. Reading week. No class!</span>
 						</div>
-						Week 7
-						<div class="table">
+
+						<span class="bold-text">Week 7 (February 22, 24, 26)</span><br/>
+						<span>Assignment 3 due on February 28 (Sunday) at 11:59pm</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -398,19 +419,15 @@
 									<div>ExpressJS, AngularJS</div>
 								</div>
 								<div class="table-row">
-									<div class="left">Tutorial</div>
-									<div>February 26</div>
-									<div>AngularJS</div>
-								</div>
-								<div class="table-row">
-									<div class="left bottom"></div>
-									<div class="bottom">February 28</div>
-									<div class="bottom">Assignment 3 Due, 11.59 PM</div>
+									<div class="left bottom">Tutorial</div>
+									<div class="bottom">February 26</div>
+									<div class="bottom">AngularJS</div>
 								</div>
 							</div>
 						</div>
-						Week 8
-						<div class="table">
+
+						<span class="bold-text">Week 8 (February 29, March 2, 4)</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -424,18 +441,15 @@
 								</div>
 							</div>
 						</div>
-						Week 9
-						<div class="table">
+
+						<span class="bold-text">Week 9 (March 7, 9)</span><br/>
+						<span>Assignment 4 (Part 1) due on March 9 at 11:59pm</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
 									<div>March 7, 9</div>
 									<div>Sessions and Cookies, Performance</div>
-								</div>
-								<div class="table-row">
-									<div class="left"></div>
-									<div>March 9</div>
-									<div>Assignment 4 (Part 1) Due, 11.59 PM</div>
 								</div>
 								<div class="table-row">
 									<div class="left bottom">Tutorial</div>
@@ -444,8 +458,8 @@
 								</div>
 							</div>
 						</div>
-						Week 10
-						<div class="table" style="width: 100%;">
+						<span class="bold-text">Week 10 (March 14, 16, 18)</span>
+						<div class="schedule-table" style="width: 100%;">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -459,8 +473,8 @@
 								</div>
 							</div>
 						</div>
-						Week 11
-						<div class="table">
+						<span class="bold-text">Week 11 (March 21, 23, 25)</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -474,8 +488,9 @@
 								</div>
 							</div>
 						</div>
-						Week 12
-						<div class="table">
+						<span class="bold-text">Week 12 (March 28, 30, April 1)</span><br/>
+						<span>Assignment 4 (Part 2) due on April 3 at 11:59pm</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -483,19 +498,14 @@
 									<div>Web Search Engine, Advanced Topics</div>
 								</div>
 								<div class="table-row">
-									<div class="left">Tutorial</div>
-									<div>April 1</div>
-									<div>Assignment 4 Problem Solving</div>
-								</div>
-								<div class="table-row">
-									<div class="left bottom"></div>
-									<div class="bottom">April 3</div>
-									<div class="bottom">Assignment 4 (Part 2)  Due, 11.59 PM</div>
+									<div class="left bottom">Tutorial</div>
+									<div class="bottom">April 1</div>
+									<div class="bottom">Assignment 4 Problem Solving</div>
 								</div>
 							</div>
 						</div>
-						Week 13
-						<div class="table">
+						<span class="bold-text">Week 13 (April 4, 6, 8)</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -526,8 +536,8 @@
 						<a href="#schedule1">Section L0101/L2001</a> | <a href="#schedule2">Section L2501/L5101</a>
 					</div>
 					<div class="info">
-						Week 1
-						<div class="table">
+						<span class="bold-text">Week 1 (January 11)</span>
+						<div class="schedule-table">
 							<div class="table-head">
 								<div class="table-row">
 									<div class="left"></div>
@@ -548,8 +558,8 @@
 								</div>
 							</div>
 						</div>
-						Week 2
-						<div class="table">
+						<span class="bold-text">Week 2 (January 18)</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -563,18 +573,14 @@
 								</div>
 							</div>
 						</div>
-						Week 3
-						<div class="table">
+						<span class="bold-text">Week 3 (January 25, 27)</span><br/>
+						<span>Assignment 1 due on January 27 (Wednesday) at 11:59pm; Assignment 2 released.</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
 									<div>January 25</div>
 									<div>Javascript, HTML Canvas</div>
-								</div>
-								<div class="table-row">
-									<div class="left"></div>
-									<div>January 27</div>
-									<div>Assignment 1 Due, 11.59 PM</div>
 								</div>
 								<div class="table-row">
 									<div class="left bottom">Tutorial</div>
@@ -583,8 +589,8 @@
 								</div>
 							</div>
 						</div>
-						Week 4
-						<div class="table">
+						<span class="bold-text">Week 4 (February 1)</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -598,8 +604,9 @@
 								</div>
 							</div>
 						</div>
-						Week 5
-						<div class="table">
+						<span class="bold-text">Week 5 (February 8, 14)</span><br/>
+						<span>Assignment 2 due on February 14 (Sunday) at 11:59pm; Assignment 3 released.</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -607,23 +614,19 @@
 									<div>HTML Forms, Server-Side Programming, NodeJS</div>
 								</div>
 								<div class="table-row">
-									<div class="left">Tutorial</div>
-									<div></div>
-									<div>Nodejs-MongoDB Setup</div>
-								</div>
-								<div class="table-row">
-									<div class="left bottom"></div>
-									<div class="bottom">February 14</div>
-									<div class="bottom">Assignment 2 Due, 11.59 PM</div>
+									<div class="left bottom">Tutorial</div>
+									<div class="bottom"></div>
+									<div class="bottom">Nodejs-MongoDB Setup</div>
 								</div>
 							</div>
 						</div>
-						Week 6
+						<span class="bold-text">Week 6</span>
 						<div>
 							Reading week. No class!
 						</div>
-						Week 7
-						<div class="table">
+						<span class="bold-text">Week 7 (February 22, 28)</span><br/>
+						<span>Assignment 3 due on February 28 (Sunday) at 11:59pm; Assignment 4 released.</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -631,19 +634,14 @@
 									<div>ExpressJS, AngularJS</div>
 								</div>
 								<div class="table-row">
-									<div class="left">Tutorial</div>
-									<div></div>
-									<div>AngularJS</div>
-								</div>
-								<div class="table-row">
-									<div class="left bottom"></div>
-									<div class="bottom">February 28</div>
-									<div class="bottom">Assignment 3 Due, 11.59 PM</div>
+									<div class="left bottom">Tutorial</div>
+									<div class="bottom"></div>
+									<div class="bottom">AngularJS</div>
 								</div>
 							</div>
 						</div>
-						Week 8
-						<div class="table">
+						<span class="bold-text">Week 8 (February 29)</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -657,18 +655,14 @@
 								</div>
 							</div>
 						</div>
-						Week 9
-						<div class="table">
+						<span class="bold-text">Week 9 (March 7, 9)</span><br/>
+						<span>Assignment 4 (Part 1) due on March 9 (Sunday) at 11:59pm</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
 									<div>March 7</div>
 									<div>Sessions and Cookies, Performance</div>
-								</div>
-								<div class="table-row">
-									<div class="left"></div>
-									<div>March 9</div>
-									<div>Assignment 4 (Part 1) Due, 11.59 PM</div>
 								</div>
 								<div class="table-row">
 									<div class="left bottom">Tutorial</div>
@@ -677,8 +671,8 @@
 								</div>
 							</div>
 						</div>
-						Week 10
-						<div class="table" style="width: 100%;">
+						<span class="bold-text">Week 10 (March 14)</span>
+						<div class="schedule-table" style="width: 100%;">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -692,8 +686,8 @@
 								</div>
 							</div>
 						</div>
-						Week 11
-						<div class="table">
+						<span class="bold-text">Week 11 (March 21)</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -707,8 +701,9 @@
 								</div>
 							</div>
 						</div>
-						Week 12
-						<div class="table">
+						<span class="bold-text">Week 12 (March 28, April 3)</span><br/>
+						<span>Assignment 4 (Part 2) due on April 3 (Sunday) at 11:59pm</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -716,19 +711,14 @@
 									<div>Web Search Engine, Advanced Topics</div>
 								</div>
 								<div class="table-row">
-									<div class="left">Tutorial</div>
-									<div></div>
-									<div>Assignment 4 Problem Solving</div>
-								</div>
-								<div class="table-row">
-									<div class="left bottom"></div>
-									<div class="bottom">April 3</div>
-									<div class="bottom">Assignment 4 (Part 2)  Due, 11.59 PM</div>
+									<div class="left bottom">Tutorial</div>
+									<div class="bottom"></div>
+									<div class="bottom">Assignment 4 Problem Solving</div>
 								</div>
 							</div>
 						</div>
-						Week 13
-						<div class="table">
+						<span class="bold-text">Week 13 (April 4)</span>
+						<div class="schedule-table">
 							<div class="table-body">
 								<div class="table-row">
 									<div class="left">Class</div>
@@ -758,20 +748,29 @@
 					<h3>Anonymous Feedback</h3>
 				</div>
 				<div class="info">
-					<form>
-						<span>Name:</span><br/>
-						<input class="form-input" type="text"><br>
-						<span>Email:</span><br/>
-						<input class="form-input" type="text"><br>
-						<span>Comment:</span><br/>
-						<input class="form-textarea" type="textarea">
+					<p>Any feedback is welcome! We value your feedback and will incorporate your suggestion, thoughts, and ideas into future classes.</p>
+					<form id="feedback-form" method="post" action="lisa.weng@mail.utoronto.ca" target="_blank">
+						<p>Name:
+							<input class="form-input" type="text" name="name">
+						</p>
+						<p>Email:
+							<input class="form-input" type="text" name="email">
+						</p>
+						<p>Message:
+							<textarea class="form-textarea" name="message"></textarea>
+						</p>
+						<input class="submit-button" type="submit" value="Submit">
 					</form>
 				</div>
 			</div>
 		</div>
 		<footer>
-			<div></div>
-			<div>Site design by Lisa Weng (lisa.weng@mail.utoronto.ca)</div>
+			<div>
+				<a href="http://web.cs.toronto.edu/" target="_blank">
+					<img src="assets/compsci_logo.jpg" class="compsci-logo">
+				</a>
+			</div>
+			<div class="text-center">Site design by Lisa Weng (lisa.weng@mail.utoronto.ca)</div>
 		</footer>
 	</body>
 </html>
