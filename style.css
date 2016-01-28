@@ -29,6 +29,10 @@ a:hover {
     color: #9b84f4;
 }
 
+a:active {
+	color: #ff7373;
+}
+
 .bold-text {
 	font-weight: bold;
 }
@@ -117,6 +121,10 @@ a.nav-link:hover {
 	color: #b1f6d7;
 }
 
+a.nav-link:active {
+	color: #fff7eb
+}
+
 
 /*---------- content general style ----------*/
 
@@ -169,23 +177,23 @@ a.nav-link:hover {
     margin-bottom: 10px;
     cursor: pointer;
     border: 2px solid #b1f3f6;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .small_avatar {
     width: 120px;
     height: 120px;
     border-radius: 60px;
+    margin: 0 auto;
     margin-bottom: 10px;
     border: 2px solid #b1f3f6;
     background-position: center;
-    display: inline-block;
-    margin-right:30px;
 }
 
 .assistant-block {
-	width: 48%; 
+	width: 45%; 
 	display: inline-block;
+	margin-right: 10px;
 }
 
 .staff-title {
@@ -195,13 +203,18 @@ a.nav-link:hover {
 
 .ta-title {
 	text-align: left; 
-	margin-bottom: 10px; 
-	margin-top: 10px;
+	margin-bottom: 30px; 
+	margin-top: 15px;
+}
+
+.instructor-info {
+	display: inline-block; 
+	position: absolute;
 }
 
 .staff-info {
-	display: inline-block; 
-	position: absolute;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .staff-info p {
@@ -210,6 +223,8 @@ a.nav-link:hover {
 
 a.email-link {
 	color: #3c8564;
+	word-wrap: break-word;
+	word-break: break-all;
 }
 
 a.email-link:hover {
@@ -250,6 +265,8 @@ a.email-link:hover {
 	display: inline-block; 
 	position: absolute; 
 	margin-left: 30px;
+	width: 50%;
+    word-wrap: break-word;
 }
 
 .textbook-info p {
@@ -260,17 +277,25 @@ a.email-link:hover {
 	line-height: 2;
 }
 
+.underline-text {
+	text-decoration: underline;;
+}
+
 
 /*---------- schedule section style ----------*/
 
 a.section-link {
-	color: #323232;
+	color: #323299;
 	font-weight: bold;
 }
 
 a.section-link:hover {
-	color: #7f7f7f;
+	color: #7f7fbf;
 	font-weight: bold;
+}
+
+a.section-link:active {
+	color: #ffc8e3;
 }
 
 .schedule-table {
@@ -296,7 +321,7 @@ a.section-link:hover {
 
 .schedule-table-row div.left {
 	border-left: 2px solid #aec4d1;
-	width: 200px;
+	width: 150px;
 }
 
 .schedule-table-row div.bottom {
@@ -304,7 +329,7 @@ a.section-link:hover {
 }
 
 .schedule-column {
-	width: 200px;
+	width: 150px;
 }
 
 .week-subtitle {
@@ -354,7 +379,7 @@ a.section-link:hover {
 /*----------- footer style --------------*/
 
 footer {
-	font-size: 14px;
+	font-size: 12px;
 	background-color: #effcfd;
 	padding-bottom: 10px;
 	padding-top: 10px;
@@ -363,10 +388,20 @@ footer {
 .footer-text {
 	text-align: center;
 	color: #575757;
-	line-height: 1.5;
 }
 
 .footer-text p {
 	margin-bottom: 0;
 	margin-top: 0;
+	line-height: 2;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	body {
+		font-size: 13px;
+	}
+
+	footer {
+		font-size: 11px;
+	}
 }
